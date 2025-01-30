@@ -1,3 +1,43 @@
 body{
-    background: image("images/img1");
+    background-color: hsl(315, 80%, 2%);
+    position: relative;
+    display: grid;
+}
+.text{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2em;
+    font-family: cursive;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+   
+}
+.buttons{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;  
+}
+
+.buttons li{
+    margin: 0px 20px;
+}
+.buttons li a{
+    display: block;
+    border-radius: 40px;  
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(255, 204, 255);
+   
+}
+img{
+    height: 40px;
 }

@@ -1,0 +1,41 @@
+body{
+    background-color: #a7a8cd;
+    /* About font type, i didn't get what font was used in the sample so i used default */
+}
+.all{
+    width: 35%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 30px;
+}
+h1 id{
+    font-size: 20px; 
+    color: #878783; 
+}
+p{
+    font-size: 18px;
+}
+.down{
+    background-color: white;
+    padding: 20px;
+    margin-top: -20px;
+    border-radius: 0px 0px 10px 10px;
+}
+img{
+    height: 270px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+h3{
+    background-color: #fdf1b5;
+    width: 14%;
+    position: absolute;
+    border-radius: 10px 50px 50px 10px;
+    margin-left: -15px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    color: #1b1d1c;
+
+}

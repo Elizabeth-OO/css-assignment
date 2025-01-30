@@ -1,0 +1,45 @@
+body{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    
+}
+.firsthalf{
+    background-color: white;
+    padding: 20px 200px 20px 80px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.secondhalf{
+    background-color: #666666;
+    padding:50px
+}
+
+.insecondhalf{
+    background-color: #ffffff;
+    padding: 1px 15px 15px 15px;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 5px 0px #acacac;
+    
+}
+.secondhalf h4{
+    background-color: #ffbf00;
+    padding: 10px;
+}
+id{
+    color: #34ac84;
+    font-weight: bold;
+}
+h4{
+    font-size: large;
+    width: 45%;
+    text-align: center;
+    padding-right: 50px;
+    position: relative;
+    right: 20px;
+    margin-top: 5px;
+    box-shadow: 0px 5px 0px #cc9900;
+}

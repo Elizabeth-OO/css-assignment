@@ -1,0 +1,55 @@
+body{
+    background-color: #f7fdfc;
+}
+.left-side{
+
+}
+.right-side{
+    background-color: white;
+
+}
+
+/* 
+FOR CALENDAR DOWN */
+
+
+
+.dob-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dob-container input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px; /* Space for icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+}
+
+/* Show "Select Here" as a fake placeholder */
+.dob-container input:before {
+    content: "Select here";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+}
+
+/* Add Calendar Icon */
+.dob-container::after {
+    content: "📅"; /* Unicode calendar emoji */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #666;
+    pointer-events: none;
+}
+

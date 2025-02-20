@@ -1,0 +1,225 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.account-btn {
+    border: 1px solid #767f8a;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    background: white;
+    width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.checkout-box {
+    padding: 70px;
+}
+.checkout-box h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+    color: #4b5663;
+}
+
+h2 {
+    margin-bottom: 20px;
+    box-shadow: 40px;
+}
+
+.section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+}
+.section h3{
+    color: #4b5663;
+}
+
+h3 span {
+    background-color: #fff;
+    color: #1179bf;
+    padding: 4px 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: #1179bf solid 1px;
+
+
+}
+.help-text{
+    text-align: center;
+    justify-content: center;
+}
+.help-text  span{
+    color: #8f969f;
+    font-size: 12px;
+}
+
+.input-group {
+    display: flex;
+    gap: 50px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.input-field label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-field input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #edeff2;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.credit-card {
+    display: flex;
+    gap: 0px;
+}
+
+.buy-button {
+    width: 100%;
+    background-color: #038e7d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #1179bf;
+    color: white;
+    padding: 30px;
+    height: auto;
+    display:inline-block;
+   
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price span {
+    font-size: 32px;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 15px 0px;
+    margin-right: auto;
+    display: block;
+    width: max-content;
+    line-height: 35px;
+
+}
+
+blockquote {
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+.features li{
+    list-style-type: none;
+
+}
+
+.author img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.upgrade a {
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    line-height: 40px;
+
+}
+.powered-by{
+    background-color: #aab1b9;
+    width: 30%;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    margin-left: 35%;
+}
+.stripe{
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+footer a{
+    color: #5e8fa7;
+    text-decoration: none;
+}

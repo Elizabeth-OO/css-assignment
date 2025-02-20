@@ -6,19 +6,28 @@
     <title>CSS 4</title>
 </head>
 <body>
+<div class="both-sides">
     <div class="left-side">
-        <img src="../images/logo.png" alt="">
+        <div class="icon"><img src="../images/logo.png" alt=""></div>
         <h2>For Individuals</h2>
         <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
     </div>
+
     <div class="right-side">
-        <form action="">
-            <label for="name">First Name </label>
-                <input type="text" id="First-Name" required>
+        <form class="register-form">
+            <div class="input-group">
+                <div class="input-field">
+            <label for="first-name">First Name </label>
+                <input type="text" id="First-Name" placeholder="Lizzy"required> </div>
 
-                <label for="name">Last Name</label>
+                <div class="input-field">
+                <label for="last-name">Last Name</label>
                 <input type="text" id="Last-Name" required>
+                </div>
+            </div>
 
+            <div class="input-group">
+            <div class="input-field">
                 <label for="gender">Gender</label>
                 <select name="gender" id="gender">
                     <option disabled selected>Select</option>
@@ -26,20 +35,51 @@
                     <option value="Male">Male</option>
                     <Option value="chose-not-to-say">I choose not to say</Option>
                 </select>
+            </div>
 
+            <div class="input-field">
                 <label for="dob">Date of Birth</label>
                 <input type="date" placeholder="Select here">
+            </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-field">
 
                 <label for="weight">Weight(KG)</label>
-                <Input type="text" placeholder="Enter Weight" >
-
+                <Input type="text" placeholder="Enter Weight" > </div>
+                
+                <div class="input-field">
                 <label for="height" id="height">Height(CM)
                     <input placeholder="Enter height here" type="text">
-                </label>
+                </label> </div>
+            </div>
+
+        <div class="input-field">
+                <label for="activity">Activity Level</label>
+                <select id="activity">
+                    <option disabled selected >Select Here</option>
+                    <option>High</option>
+                    <option>Mid</option>
+                    <option>Low</option>
+                </select>
+        </div>
+
+        <div class="input-field">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+
+        <button type="submit" class="register-btn">Register</button>
+
+                <p class="terms">
+                    <b>By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a></b>
+                </p>
 
         </form>
 
     </div>
+</div>
 
     <link rel="stylesheet" href="css4.css">
     

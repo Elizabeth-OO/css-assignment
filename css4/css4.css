@@ -20,7 +20,7 @@ body, p, input, select, button {
 .left-side{
     width: 40%;
     padding: 40px;
-    background-color: #f7f9f9;
+    background-color: #f7fdfc;
     display: flex;
     flex-direction: column;
     justify-content: center;

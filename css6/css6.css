@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+}
+.hero-colour-apply{
     background: linear-gradient(to top, #fff, #f6f5e5);
 }
 
@@ -83,6 +85,18 @@ image{
     padding: 12px 24px;
     border-radius: 25px;
 }
+.hero-image{
+    transform: scale(0.8);
+    margin: auto;
+}
+.hero-image2{
+    transform: scale(0.5);
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    transform: translate(-47%, -47%);
+   
+}
 .btn-light{
     color: #0066ff;
 }
@@ -100,16 +114,145 @@ image{
     text-align: center;
     padding: 10px 10%;
     display: flex;
+    background-color: #F9FBFD;
+    gap: 50px;
 }
 
 .stats-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 10px;
 }
 
 .stat {
     text-align: center;
 }
+.reasons{
+    display: flex;
+    padding: 8% 10%;
+    gap: 50px;
+    line-height: 25px;
+}
+.reasons-left-div{
+    width: 80%;
+    
+}
+.reasons-right-div{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+.reasons-right-div img{
+    width: 30px;
+}
+.reasons-right-div p{
+    padding-bottom: 20px;
+}
+.reasons-right-div h4{
+    font-size: 18px;
+}
+.scissors{
+    color: #0066ff;
+}
+
+.plans{
+    padding: -10px 10%;
+    line-height: 24px;
+}
+.plan-prices{
+    padding: 3% 200px;
+    margin: 0px;
+    position: relative;
+}
+.plan-title span{
+    color: #0066ff;
+}
+.plan-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan-in-light{
+    width: 26%;
+    text-align: left;
+    padding: 10px 30px 30px 40px;
+    border: 1px solid #005AE2;
+    border-radius: 10px;
+    line-height: 10px;
+    display: inline-block;
+    margin: auto;
+    font-size: 15px;
+}
+.plan-in-light h2{
+    text-align: justify;
+}
+.plan-in-light p{
+    display: inline-flex;
+    margin-left: 10px;
+}
+.plan-in-light h5{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.plan-in-dark{
+    width: 27%;
+    text-align: left;
+    padding: 60px 30px;
+    border-radius: 10px;
+    line-height: 10px;
+    font-size: 15px;
+    display: inline-block;
+    margin: 0 -30px;
+    background-color: #1E3448;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+
+}
+.plan-in-dark h2{
+    text-align: justify;
+}
+.plan-in-dark p{
+    display: inline-flex;
+    margin-left: 10px;
+}
+.plan-in-dark h5{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.plan-buttons{
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    padding-bottom: 70px;
+}
+#plan-btn-1{
+    padding: 10px 20px;
+    color: #0065FE;
+    background-color: #fff;
+    border: 1px solid #0065FE;
+    border-radius: 20px;
+}
+#plan-btn-2{
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #0065FE;
+    border-radius: 20px;
+    border-color: #005AE2;
+
+}
+
+.form-section{
+    background-color: #1E3448;
+    padding: 30px;
+}
+
+
+
 

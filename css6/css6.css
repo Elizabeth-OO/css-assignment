@@ -250,9 +250,66 @@ image{
 
 .form-section{
     background-color: #1E3448;
-    padding: 30px;
+    padding: 70px;
 }
+.form{
+    padding: 40px;
+    width: 30%;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #fff;
+    left: 40%;
 
-
-
+}
+.form p{
+    font-size: 12px;
+    color: #3284FF;
+    margin-top: 20px;
+}
+.form button{
+    background-color: #3284FF;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 70px;
+    display: flex;
+    gap: 3px;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 20px;
+}
+.form button img{
+    width: 20px;
+    height: 15px;
+}
+.sec-part-of-form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  
+}
+::placeholder{
+    color: #3284FF;
+    
+}
+#select-domain{
+    color: #3284FF;
+    border: 1px solid #3284FF;
+    border-radius: 10px;
+    padding: 10px 20px 10px 5px;
+    font-size: 12px;
+}
+#type-alias{
+    border: 1px solid #3284FF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+#paste-url{
+    border: 1px solid #3284FF;
+    border-radius: 10px;
+    padding: 10px 175px 10px 5px;
+    font-size: 12px;
+    
+}
 
